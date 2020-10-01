@@ -6,7 +6,7 @@ Upload files via FTP based on their content changing.
 Ned Batchelder
 http://www.nedbatchelder.com
 """
-
+# importing packages.
 import ftplib, pickle, sys, md5, os, string
 import logging      # if not std, http://www.red-dove.com/python_logging.html
 import path         # http://www.jorendorff.com/articles/python/path
